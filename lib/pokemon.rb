@@ -18,7 +18,7 @@ class Pokemon
   # In the database, pass in the scraped name and type. Execute (on the db)...insert these into Pokemon table.
   # And the values are from the arguments passed in
 
-  def self.find(id,db)
+  def self.find(id,db) #db => <SQLite3::Database:0x0000000002260460>
 binding.pry
   end
 end
