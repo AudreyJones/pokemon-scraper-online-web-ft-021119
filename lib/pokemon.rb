@@ -19,6 +19,7 @@ class Pokemon
   # And the values are from the arguments passed in
 
   def self.find(id,db) #id => 1, db => <SQLite3::Database:0x0000000002260460>
-
+    #Create a query?
+    "SELECT * FROM #{db} WHERE id = #{id}"
   end
 end
