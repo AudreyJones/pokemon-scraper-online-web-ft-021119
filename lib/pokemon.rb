@@ -17,4 +17,8 @@ class Pokemon
   end
   # In the database, pass in the scraped name and type. Execute (on the db)...insert these into Pokemon table.
   # And the values are from the arguments passed in
+
+  def self.find
+
+  end
 end
