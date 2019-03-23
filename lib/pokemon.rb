@@ -19,6 +19,6 @@ class Pokemon
   # And the values are from the arguments passed in
 
   def self.find(id,db)
-
+binding.pry
   end
 end
