@@ -20,6 +20,6 @@ class Pokemon
 
   def self.find(id,db) #id => 1, db => <SQLite3::Database:0x0000000002260460>
     #Create a query?
-    "SELECT * FROM #{db} WHERE id = #{id}"
+    db.execute("SELECT * FROM #{db} WHERE id = #{id}")
   end
 end
